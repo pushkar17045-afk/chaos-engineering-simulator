@@ -1,4 +1,6 @@
 # Distributed System Failure Injection Simulator
+docker-compose up --build
+curl http://localhost:5000/request
 
 ## Overview
 This project simulates a distributed microservices system and injects controlled failures to study resilience, recovery behavior, and fault propagation.
